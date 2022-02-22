@@ -37,12 +37,6 @@ L.control.layers(baseMaps).addTo(map);
 // Accessing the Toronto airline routes GeoJSON URL.
 let quakesPastSevenDays = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
-// // Create a style for the lines.
-// let myStyle = {
-//   color: "blue",
-//   fillColor: "#ffffa1",
-//   weight: 1
-// }
 
 // Grabbing our GeoJSON data.
 d3.json(quakesPastSevenDays).then(function(data) {
@@ -51,8 +45,3 @@ d3.json(quakesPastSevenDays).then(function(data) {
   L.geoJSON(data).addTo(map);
 });
 
-// , {
-//   style: myStyle,
-//   onEachFeature: (feature, layer) =>
-//   layer.bindPopup ("<h2>" + "Neighborhood: " + feature.properties.AREA_NAME + "</h2")
-// }
