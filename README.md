@@ -2,6 +2,9 @@
 # Overview
 This analysis traverses the latest GeoJson data from US Geological Survey website to create insightful data visualizations with interactive features on earthquakes from around the world.
 
+To view the analysis discussed below please view the "Earthquake_Analysis" folder in this repository. 
+ * https://pascalegeday.github.io/Mapping_Earthquakes/
+
 # Resources 
 Data Sources
 * Map Styles: https://docs.mapbox.com/api/maps/styles/
